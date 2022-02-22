@@ -4,9 +4,9 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);//LCD pins at which it is attached to the 
 void setup()//method used to run the code for once 
 {
   lcd.begin(16, 2);//LCD order
-  lcd.print("sOFIA ALBERT");//prints on LCD
+  lcd.print("sofia, guillermo y francisco");//prints on LCD
   lcd.setCursor(0,1);//Setting the cursor on LCD
-  lcd.print("GUILLERMO CABALLERO");//prints on LCD
+  lcd.print("equipo estrella!!");//prints on LCD
   delay(1000);//delay of 1 second
 }
 
